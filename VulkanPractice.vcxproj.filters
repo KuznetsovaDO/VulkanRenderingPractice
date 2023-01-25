@@ -3,4 +3,20 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{8bfca249-09a0-4d23-874d-8ed6e8f38bb3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\shader.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\shader.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="compile.bat">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
 </Project>
