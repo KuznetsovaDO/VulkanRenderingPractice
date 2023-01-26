@@ -7,6 +7,9 @@
     <Filter Include="shaders">
       <UniqueIdentifier>{8bfca249-09a0-4d23-874d-8ed6e8f38bb3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="textures">
+      <UniqueIdentifier>{19db4d31-6f28-496c-a85c-cbc3041f213b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\shader.vert">
@@ -24,5 +27,16 @@
     <None Include="shaders\shader_ubo.frag">
       <Filter>shaders</Filter>
     </None>
+    <None Include="shaders\shader_textures.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\shader_textures.frag">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\texture.jpg">
+      <Filter>textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>
