@@ -18,5 +18,11 @@
     <None Include="..\getIntoGameDev-main\getIntoGameDev-main\vulkan\12 - Rendering\Start\shaders\compile.bat">
       <Filter>shaders</Filter>
     </None>
+    <None Include="shaders\shader_ubo.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\shader_ubo.frag">
+      <Filter>shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>
