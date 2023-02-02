@@ -10,9 +10,6 @@
     <Filter Include="textures">
       <UniqueIdentifier>{19db4d31-6f28-496c-a85c-cbc3041f213b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="models">
-      <UniqueIdentifier>{59c8a61d-5cbb-4309-b7c6-60866cdcb175}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\shader.vert">
@@ -36,10 +33,10 @@
     <None Include="shaders\shader_textures.frag">
       <Filter>shaders</Filter>
     </None>
-    <None Include="shader_depth.vert">
+    <None Include="shaders\shader_depth.vert">
       <Filter>shaders</Filter>
     </None>
-    <None Include="shader_depth.frag">
+    <None Include="shaders\shader_depth.frag">
       <Filter>shaders</Filter>
     </None>
   </ItemGroup>
@@ -50,10 +47,8 @@
     <Image Include="F:\ПРАКТИКА\922\Документы\Модель\1234_aparat_stereo_glass.jpg">
       <Filter>textures</Filter>
     </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <Object Include="viking_room.obj">
-      <Filter>models</Filter>
-    </Object>
+    <Image Include="textures\viking_room.png">
+      <Filter>textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>
